@@ -1,6 +1,6 @@
 # Astro + Tailwind CSS Starter Template
 
-Este es un template minimalista para proyectos con Astro y Tailwind CSS, configurado con modo oscuro por defecto.
+Este es un template minimalista para proyectos con Astro y Tailwind CSS, configurado con modo oscuro por defecto. puedes ver el ejemplo [aquí](https://astro-template.azaldev.com)
 
 ## 🚀 Características
 
