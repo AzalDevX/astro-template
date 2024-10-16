@@ -1,0 +1,41 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+---
+
+<Layout title="Astro + TailwindCSS Template">
+  <main class="max-w-4xl mx-auto p-6 pt-16">
+    <h1 class="text-text-primary text-5xl font-extrabold text-center mb-8">Bienvenido a <strong class="text-purple-300">Astro</strong> + <strong class="text-teal-300">TailwindCSS</strong></h1>
+    <p class="text-center text-xl mb-12">
+      ¡Empieza con <code class="bg-code-background border-1 border-code-border px-2 py-1 rounded-md">src/pages</code> para codear!<br />
+      <strong class="text-accent-primary">Objetivo:</strong> Facilitar la creación de proyectos combinados con ambas tecnologías.
+    </p>
+    <ul role="list" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <Card
+        href="https://astro.build/"
+        title="Inicia tu Proyecto"
+        body="Comienza a desarrollar tu idea usando este template como base. ¡Explora las posibilidades!"
+      />
+      <Card
+        href="https://docs.astro.build/en/getting-started/"
+        title="Documentación"
+        body="Aprende a integrar nuevas funcionalidades, y consulta las guías para personalizar el template."
+      />
+      <Card
+        href="https://tailwindcss.com/docs/guides/astro"
+        title="Aprende Astro y TailwindCSS"
+        body="Descubre cómo aprovechar al máximo Astro y TailwindCSS en tus proyectos."
+      />
+      <Card
+        href="https://github.com/azaldevx/astro-template"
+        title="Contribuir al Proyecto"
+        body="¿Tienes ideas o mejoras? Colabora en el desarrollo de este template en GitHub."
+      />
+    </ul>
+  </main>
+
+  <footer class="mt-12 text-center text-footer">
+    <p>Creado por <a href="https://www.linkedin.com/in/azaldev" class="text-accent-primary hover:underline">AzalDevX</a> - 
+    <a href="https://github.com/azaldevx/astro-template" class="text-accent-primary hover:underline">GitHub</a></p>
+  </footer>
+</Layout>
